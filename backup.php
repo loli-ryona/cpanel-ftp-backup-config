@@ -12,7 +12,7 @@ $ftp_port = "21";
 $ftp_directory = ""; //ftp dir. replace [website name] with website folders name
 $email = ""; // Where the email notification will be sent
 
-// Do not change below, talk to Tristan for help on this.
+//Form submission etc
 $url = $domain . "/frontend/" . $theme . "/backup/dofullbackup.html"; //sets the url for the exact directory to dofullbackup.html
 $data = array(); //creating a data array for the ftp info
 if ($ftp) { //will only create if $ftp = true
